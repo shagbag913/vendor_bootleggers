@@ -6,6 +6,7 @@ PRODUCT_VERSION_MAJOR = Pie
 PRODUCT_VERSION_MINOR = niceparse.Goodbye_Star_Girl
 BOOTLEGGERS_VERSION_NUMBER := 4.0-Stable
 BOOTLEGGERS_SONGCODEURL = http://bit.ly/2Aa2WmA
+BOOTLEGGERS_EPOCH := $(shell date +%s)
 BOOTLEGGERS_POSTFIX := -$(shell date +"%Y%m%d-%H%M%S")
 
 ifndef BOOTLEGGERS_BUILD_TYPE
